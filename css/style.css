@@ -19,7 +19,7 @@ header {
 
 .header-right-items {
     float: right;
-    padding-top: 10px;
+    padding: 15px 15px 0px 0px;
 }
 
 .top-right-content {
@@ -35,6 +35,9 @@ header {
 /* End of header*/
 
 /* Start of main */
+main {
+    background-color: #000;
+}
 
 .main-container {
     width: 90%;
@@ -126,6 +129,7 @@ header {
 }
 
 /* Following code is used for debug purposes only */
+/*
 main {
     background-color: lightblue;
     
