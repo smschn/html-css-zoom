@@ -128,23 +128,17 @@ main {
 /* End of right footer section */
 /* End of footer */
 
+/* Debug-only class */
 .debug {
     border: dashed 2px red;
 }
 
-/* Following code is used for debug purposes only */
-/*
+/* Following code is used for debug purposes only
+
 main {
     background-color: lightblue;
-    
 }
 
 .main-container {
     background-color: lightgreen;
 }
-
-/*
-to do
-+ overflow scroll > main section?
-+ smooth scroll?
-+ delete debug classes from html
