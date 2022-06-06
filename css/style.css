@@ -36,7 +36,7 @@ header {
 /* Start of main */
 main {
     height: 3000px;
-    margin-top: 150px;
+    
 }
 
 /* Start of footer */
@@ -47,15 +47,21 @@ main {
     color: #fff;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999;
 }
 
 .debug {
     border: dashed 2px red;
 }
 
-
+/* Folloing code is used for debug purposes only */
 main {
     background-color: lightblue;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 /*
