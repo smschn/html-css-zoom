@@ -27,6 +27,19 @@ header {
     content: "   ";
 }
 
+/* Start of footer */
+.footer-container {
+    width: 100%;
+    height: 200px;
+    background-color: #222;
+}
+
 .debug {
     border: dashed 2px red;
 }
+
+/*
+to do
++ footer, header > fixed
++ overflow scroll > main section
++ delete debug class from html
