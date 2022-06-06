@@ -95,13 +95,14 @@ main {
 }
 
 /* Start of left footer section */
-.footer-video {
+.footer-container-icon-text {
+    margin: 10px;
     text-align: center;
 }
 
-.footer-icon {
+.f-icon-img {
+    font-size: 38px;
     margin-bottom: 10px;
-    font-size: 34px;
 }
 
 .footer-arrow {
@@ -111,6 +112,10 @@ main {
 /* End of left footer section */
 
 /* Start of center footer section */
+.f-icon-img.green {
+    color: #4bc800;
+}
+/* End of center footer section */
 
 /* Start of right footer section */
 .footer-container .right {
