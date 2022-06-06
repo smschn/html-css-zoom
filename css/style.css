@@ -86,13 +86,9 @@ main {
     display: flex;
 }
 
-.footer-sub-container > div {
-    padding: 5px;
-}
-
 /* Start of left footer section */
 .footer-container-icon-text {
-    margin: 10px;
+    margin: 15px;
     text-align: center;
 }
 
@@ -114,7 +110,7 @@ main {
 /* End of center footer section */
 
 /* Start of right footer section */
-.footer-container .right {
+.footer-sub-container.right {
     height: 100%;
     width: 150px;
     background-color: #474747;
