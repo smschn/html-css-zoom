@@ -35,13 +35,13 @@ header {
 /* End of header*/
 
 /* Start of main */
-main {
-    height: 3000px;
-    
-}
 
 .main-container {
-    
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    height: 3000px;
 }
 
 /* Start of footer */
@@ -107,8 +107,11 @@ main {
 /* Following code is used for debug purposes only */
 main {
     background-color: lightblue;
-    margin-top: 150px;
-    margin-bottom: 250px;
+    
+}
+
+.main-container {
+    background-color: lightgreen;
 }
 
 /*
