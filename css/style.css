@@ -42,13 +42,14 @@ main {
 .main-container {
     width: 90%;
     margin: auto;
-    padding: 150px 0px 250px 0px;
+    padding: 150px 0px 200px 0px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
     color: #fff;
 }
 
+/* Start of main content */
 .main-content-user {
     width: 200px;
     height: 300px;
@@ -67,6 +68,8 @@ main {
 .user-name p {
     display: inline-block;
 }
+/* End of main content */
+/* End of main */
 
 /* Start of footer */
 .footer-container {
@@ -105,6 +108,7 @@ main {
     display: flex;
     align-items: center;
 }
+/* End of left footer section */
 
 /* Start of center footer section */
 
@@ -121,6 +125,7 @@ main {
     color: red;
     font-weight: bolder;
 }
+/* End of right footer section */
 /* End of footer */
 
 .debug {
