@@ -63,6 +63,7 @@ main {
     padding: 5px;
 }
 
+/* Start of footer left section */
 .footer-video {
     text-align: center;
 }
@@ -76,6 +77,10 @@ main {
     display: flex;
     align-items: center;
 }
+
+/* Start of footer center section */
+
+
 /* End of footer */
 
 .debug {
