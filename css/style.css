@@ -40,6 +40,10 @@ main {
     
 }
 
+.main-container {
+    
+}
+
 /* Start of footer */
 .footer-container {
     width: 100%;
@@ -63,7 +67,7 @@ main {
     padding: 5px;
 }
 
-/* Start of footer left section */
+/* Start of left footer section */
 .footer-video {
     text-align: center;
 }
@@ -78,16 +82,29 @@ main {
     align-items: center;
 }
 
-/* Start of footer center section */
+/* Start of center footer section */
 
+/* Start of right footer section */
+.footer-container .right {
+    background-color: #474747;
+    width: calc(100% / 12);
+    height: 100%;
+}
 
+.end-meeting-button {
+    width: 100%;
+    height: 100%;
+    color: red;
+    font-weight: bolder;
+    
+}
 /* End of footer */
 
 .debug {
     border: dashed 2px red;
 }
 
-/* Folloing code is used for debug purposes only */
+/* Following code is used for debug purposes only */
 main {
     background-color: lightblue;
     margin-top: 150px;
